@@ -1,0 +1,42 @@
+{
+  "name": "semantic-release-factorio",
+  "version": "0.0.0",
+  "description": "semantic-release plugin to release factorio mods",
+  "main": "index.js",
+  "repository": "https://github.com/fgardt/semantic-release-factorio",
+  "author": "fgardt",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "semantic-release",
+    "factorio",
+    "ci"
+  ],
+  "bugs": {
+    "url": "https://github.com/fgardt/semantic-release-factorio/issues"
+  },
+  "homepage": "https://github.com/fgardt/semantic-release-factorio#readme",
+  "dependencies": {
+    "aggregate-error": "^4.0.1",
+    "axios": "^1.2.3",
+    "jsonschema": "^1.4.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^20.0.2"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  }
+}
