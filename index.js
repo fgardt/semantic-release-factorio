@@ -22,7 +22,7 @@ async function verifyConditions(config, context) {
         const info = await readInfoFile(config, context);
         isInfoValid(info);
 
-        await verifyToken(config, context, name);
+        await verifyToken(config, context, info.name);
     } catch (error) {
         errors.push(error)
     }
