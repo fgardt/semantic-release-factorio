@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.4...v1.2.5) (2023-01-22)
+
+
+### Bug Fixes
+
+* tokenEnvVar check ([58dd9ce](https://github.com/fgardt/semantic-release-factorio/commit/58dd9ce2f044af701d30f0ac7de9dda5b1d435e9))
+
 ## [1.2.4](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.3...v1.2.4) (2023-01-22)
 
 
