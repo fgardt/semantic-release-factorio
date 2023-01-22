@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.1.0...v1.2.0) (2023-01-22)
+
+
+### Features
+
+* removed changelog updating ([266637a](https://github.com/fgardt/semantic-release-factorio/commit/266637afd659f93fb92c18cc28562079acbc1f8c))
+
 # [1.1.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.0.1...v1.1.0) (2023-01-22)
 
 
