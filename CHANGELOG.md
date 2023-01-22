@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.0...v1.2.1) (2023-01-22)
+
+
+### Bug Fixes
+
+* set type to "module" ([1d2fd7c](https://github.com/fgardt/semantic-release-factorio/commit/1d2fd7c17b3afbbe5340b5e79bf8e4ce24ee1c05))
+
 # [1.2.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.1.0...v1.2.0) (2023-01-22)
 
 
