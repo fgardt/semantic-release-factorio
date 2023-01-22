@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.3...v1.2.4) (2023-01-22)
+
+
+### Bug Fixes
+
+* corrected export in index.js ([1f8ad3b](https://github.com/fgardt/semantic-release-factorio/commit/1f8ad3bf43796069e94e88afbdedfc9f6178ac9d))
+
 ## [1.2.3](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.2...v1.2.3) (2023-01-22)
 
 
