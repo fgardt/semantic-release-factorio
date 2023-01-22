@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.2...v1.2.3) (2023-01-22)
+
+
+### Bug Fixes
+
+* imports with extensions ([624ee70](https://github.com/fgardt/semantic-release-factorio/commit/624ee701b22d1777c2ce00fb6a708c4fe8048eaf))
+
 ## [1.2.2](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.1...v1.2.2) (2023-01-22)
 
 
