@@ -67,8 +67,8 @@ async function publish(config, context) {
 
         await portal.uploadMod(config, context, info, archiveFile);
 
-        const deleteArchiveCommand = "rm -f" + archiveFile;
-        const { stdout1, stderr1 } = await exec(deleteArchiveCommand);
+        //const deleteArchiveCommand = "rm -f" + archiveFile;
+        //const { stdout1, stderr1 } = await exec(deleteArchiveCommand);
     } catch (error) {
         errors.push(error);
     }
