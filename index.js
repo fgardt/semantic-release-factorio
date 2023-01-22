@@ -79,4 +79,4 @@ async function publish(config, context) {
     }
 }
 
-module.exports = { verifyConditions, /* verifyRelease, */ prepare, publish };
+export { verifyConditions, /* verifyRelease, */ prepare, publish };
