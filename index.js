@@ -6,20 +6,23 @@
  */
 
 import { promisify } from 'node:util';
+import { exec } from 'node:child_process';
 import AggregateError from 'aggregate-error';
 
-const exec = promisify(require('child_process').exec);
-const portal = require('./lib/mod-portal');
-const modInfo = require('./lib/mod-info');
+import { verifyToken, uploadMod } from './lib/mod-portal';
+import { isInfoValid, readInfoFile, updateInfo } from './lib/mod-info';
+
+const execPromise = promisify(exec);
+
 
 async function verifyConditions(config, context) {
     const errors = [];
 
     try {
-        const info = await modInfo.readInfoFile(config, context);
-        modInfo.isInfoValid(info);
+        const info = await readInfoFile(config, context);
+        isInfoValid(info);
 
-        await portal.verifyToken(config, context, modInfo.name);
+        await verifyToken(config, context, name);
     } catch (error) {
         errors.push(error)
     }
@@ -41,7 +44,7 @@ async function prepare(config, context) {
     const errors = [];
 
     try {
-        await modInfo.updateInfo(config, context);
+        await updateInfo(config, context);
     } catch (error) {
         errors.push(error);
     }
@@ -55,18 +58,18 @@ async function publish(config, context) {
     const errors = [];
 
     try {
-        const info = await modInfo.readInfoFile(config, context);
+        const info = await readInfoFile(config, context);
 
         const archiveFile = [info.name, "_", info.version, ".zip"].join();
         const archiveCommand = "git archive --format zip --prefix " + info.name +
                 "/ --worktree-attributes --output " + archiveFile + " HEAD";
 
-        const { stdout0, stderr0 } = await exec(archiveCommand);
+        const { stdout0, stderr0 } = await execPromise(archiveCommand);
 
-        await portal.uploadMod(config, context, info, archiveFile);
+        await uploadMod(config, context, info, archiveFile);
 
         //const deleteArchiveCommand = "rm -f" + archiveFile;
-        //const { stdout1, stderr1 } = await exec(deleteArchiveCommand);
+        //const { stdout1, stderr1 } = await execPromise(deleteArchiveCommand);
     } catch (error) {
         errors.push(error);
     }
