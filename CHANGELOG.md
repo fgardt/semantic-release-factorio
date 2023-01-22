@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.0.1...v1.1.0) (2023-01-22)
+
+
+### Features
+
+* removed deletion of archive file ([f0336fc](https://github.com/fgardt/semantic-release-factorio/commit/f0336fcde93504f0ddabfeb62291dc323d0a922d))
+
 ## [1.0.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.0.0...v1.0.1) (2023-01-22)
 
 
