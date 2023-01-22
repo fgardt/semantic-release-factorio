@@ -9,8 +9,8 @@ import { promisify } from 'node:util';
 import { exec } from 'node:child_process';
 import AggregateError from 'aggregate-error';
 
-import { verifyToken, uploadMod } from './lib/mod-portal';
-import { isInfoValid, readInfoFile, updateInfo } from './lib/mod-info';
+import { verifyToken, uploadMod } from './lib/mod-portal.js';
+import { isInfoValid, readInfoFile, updateInfo } from './lib/mod-info.js';
 
 const execPromise = promisify(exec);
 
