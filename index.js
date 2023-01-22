@@ -9,7 +9,6 @@ import { promisify } from 'node:util';
 import AggregateError from 'aggregate-error';
 
 const exec = promisify(require('child_process').exec);
-const changelog = require('./lib/changelog');
 const portal = require('./lib/mod-portal');
 const modInfo = require('./lib/mod-info');
 
@@ -43,7 +42,6 @@ async function prepare(config, context) {
 
     try {
         await modInfo.updateInfo(config, context);
-        await changelog.updateChangelog(config, context);
     } catch (error) {
         errors.push(error);
     }
