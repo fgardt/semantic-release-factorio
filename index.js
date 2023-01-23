@@ -1,6 +1,6 @@
 /* semantic-release lifecycles used:
  * `verifyConditions`: check mod portal token, ...
- * `verifyRelease`: check if version format is factorio compliant
+ * (`verifyRelease`: check if version format is factorio compliant)
  * `prepare`: update changelog.txt and info.json + package mod in zip
  * `publish`: push update to mod portal
  */
@@ -16,13 +16,20 @@ const execPromise = promisify(exec);
 
 
 async function verifyConditions(config, context) {
+    const { logger } = context;
     const errors = [];
 
     try {
+        logger.log("verifying factorio mod info.json..");
+
         const info = await readInfoFile(config, context);
         isInfoValid(info);
 
+        logger.log("info.json valid. checking api token..")
+
         await verifyToken(config, context, info.name);
+
+        logger.log("api token valid.");
     } catch (error) {
         errors.push(error)
     }
