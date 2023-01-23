@@ -8,6 +8,7 @@ const { promisify } = require('node:util');
 const exec = promisify(require('node:child_process').exec);
 const AggregateError = require('aggregate-error');
 
+const { updateChangelog } = require('./lib/changelog');
 const { verifyToken, uploadMod } = require('./lib/mod-portal.js');
 const { isInfoValid, readInfoFile, updateInfo } = require('./lib/mod-info.js');
 
@@ -36,6 +37,7 @@ async function prepare(config, context) {
 
     try {
         await updateInfo(config, context);
+        await updateChangelog(config, context);
     } catch (error) {
         errors.push(error);
     }
