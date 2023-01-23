@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/fgardt/semantic-release-factorio/compare/v1.4.1...v1.4.2) (2023-01-23)
+
+
+### Bug Fixes
+
+* move updating info.json logging into function ([6aade75](https://github.com/fgardt/semantic-release-factorio/commit/6aade754e18276a486d3342faf2dd72b92cdb0f6))
+* read next release version ([ab2e579](https://github.com/fgardt/semantic-release-factorio/commit/ab2e57986fdcf33e02cb3b882f73061d6fa2d13b))
+
 ## [1.4.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.4.0...v1.4.1) (2023-01-23)
 
 
