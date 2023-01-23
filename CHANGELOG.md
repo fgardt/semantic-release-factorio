@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.4.0...v1.4.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* use form-data to send files ([04305ed](https://github.com/fgardt/semantic-release-factorio/commit/04305ed960194a6b275abcd7da73fa931ea6fe86))
+
 # [1.4.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.3.0...v1.4.0) (2023-01-23)
 
 
