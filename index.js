@@ -72,4 +72,4 @@ async function publish(config, context) {
     }
 }
 
-export { verifyConditions, prepare, publish };
+module.exports = { verifyConditions, prepare, publish };
