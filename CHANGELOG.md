@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.11...v1.2.12) (2023-01-23)
+
+
+### Bug Fixes
+
+* content-type header name ([a8ee633](https://github.com/fgardt/semantic-release-factorio/commit/a8ee633cbfe535f15c85c3e84394ea2a917c6d41))
+
 ## [1.2.11](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.10...v1.2.11) (2023-01-23)
 
 
