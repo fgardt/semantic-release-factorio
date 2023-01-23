@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.12...v1.3.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* env var config ([1c7520b](https://github.com/fgardt/semantic-release-factorio/commit/1c7520bb78b1ecdf21fb523391376ea4a039c445))
+
+
+### Features
+
+* improved logging ([3d64304](https://github.com/fgardt/semantic-release-factorio/commit/3d64304a930fe0237cdea3ae716aa6a9590bdfb2))
+
 ## [1.2.12](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.11...v1.2.12) (2023-01-23)
 
 
