@@ -17,22 +17,16 @@ async function verifyConditions(config, context) {
     const errors = [];
 
     try {
-        logger.log("verifying factorio mod info.json");
-
         const info = await readInfoFile(config, context);
-        isInfoValid(info);
-
-        logger.log("info.json valid. checking api token")
+        isInfoValid(config, context, info);
 
         await verifyToken(config, context, info.name);
-
-        logger.log("api token valid");
     } catch (error) {
-        logger.log("invalid!");
         errors.push(error);
     }
 
     if (errors.length > 0) {
+        logger.log("verification failed!");
         throw new AggregateError(errors);
     }
 }
