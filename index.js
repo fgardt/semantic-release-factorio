@@ -5,12 +5,12 @@
  * `publish`: push update to mod portal
  */
 
-const { promisify } = require('node:util');
-const { exec } = require('node:child_process');
-const AggregateError = require('aggregate-error');
+import { promisify } from 'node:util';
+import { exec } from 'node:child_process';
+import AggregateError from 'aggregate-error';
 
-const { verifyToken, uploadMod } = require('./lib/mod-portal.js');
-const { isInfoValid, readInfoFile, updateInfo } = require('./lib/mod-info.js');
+import { verifyToken, uploadMod } from './lib/mod-portal.js';
+import { isInfoValid, readInfoFile, updateInfo } from './lib/mod-info.js';
 
 const execPromise = promisify(exec);
 
@@ -86,4 +86,4 @@ async function publish(config, context) {
     }
 }
 
-module.exports = { verifyConditions, /* verifyRelease, */ prepare, publish };
+export { verifyConditions, /* verifyRelease, */ prepare, publish };
