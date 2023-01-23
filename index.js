@@ -50,7 +50,6 @@ async function publish(config, context) {
     const { logger } = context;
 
     try {
-        logger.log("updating version in mod info.json");
         const info = await readInfoFile(config, context);
 
         const archiveFile = [info.name, "_", info.version, ".zip"].join();
