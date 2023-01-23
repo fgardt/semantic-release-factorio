@@ -3,7 +3,6 @@
   "version": "1.2.8",
   "description": "semantic-release plugin to release factorio mods",
   "main": "index.js",
-  "type": "module",
   "repository": "https://github.com/fgardt/semantic-release-factorio",
   "author": "fgardt",
   "license": "MIT",
@@ -18,7 +17,7 @@
   },
   "homepage": "https://github.com/fgardt/semantic-release-factorio#readme",
   "dependencies": {
-    "aggregate-error": "^4.0.1",
+    "aggregate-error": "^3.0.0",
     "axios": "^1.2.3",
     "jsonschema": "^1.4.1"
   },
