@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-factorio",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "semantic-release plugin to release factorio mods",
   "main": "index.js",
   "repository": "https://github.com/fgardt/semantic-release-factorio",

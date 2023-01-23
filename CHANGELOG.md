@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.6...v1.2.7) (2023-01-23)
+
+
+### Bug Fixes
+
+* use require instead of import ([4fb6c12](https://github.com/fgardt/semantic-release-factorio/commit/4fb6c128b8bb4b84e8ca325f956811a222c2db0c))
+
 ## [1.2.6](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.5...v1.2.6) (2023-01-23)
 
 
