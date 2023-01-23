@@ -47,14 +47,17 @@ async function prepare(config, context) {
 
 async function publish(config, context) {
     const errors = [];
+    const { logger } = context;
 
     try {
+        logger.log("updating version in mod info.json");
         const info = await readInfoFile(config, context);
 
         const archiveFile = [info.name, "_", info.version, ".zip"].join();
         const archiveCommand = "git archive --format zip --prefix " + info.name +
                 "/ --worktree-attributes --output " + archiveFile + " HEAD";
 
+        logger.log("packaging mod for release");
         const { stdout0, stderr0 } = await exec(archiveCommand);
 
         await uploadMod(config, context, info, archiveFile);
