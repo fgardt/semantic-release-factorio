@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.7...v1.2.8) (2023-01-23)
+
+
+### Reverts
+
+* Revert "fix: use require instead of import" ([c5d152f](https://github.com/fgardt/semantic-release-factorio/commit/c5d152f0d62f00df1aafbbe6550863d596ac66ca))
+
 ## [1.2.7](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.6...v1.2.7) (2023-01-23)
 
 
