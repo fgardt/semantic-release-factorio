@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.9...v1.2.10) (2023-01-23)
+
+
+### Bug Fixes
+
+* module export ([9e6189d](https://github.com/fgardt/semantic-release-factorio/commit/9e6189d51a9930a36c5c6921b1a0d8a77d022803))
+
 ## [1.2.9](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.8...v1.2.9) (2023-01-23)
 
 
