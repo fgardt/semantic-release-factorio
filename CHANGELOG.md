@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.3.0...v1.4.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* deduplicated some logging ([6536b80](https://github.com/fgardt/semantic-release-factorio/commit/6536b80da015a9415688dae162bd677739960f8f))
+* passing config and context further down ([9e71e5e](https://github.com/fgardt/semantic-release-factorio/commit/9e71e5ea2e1f01e6deadc086b5a39af687ded358))
+
+
+### Features
+
+* improved publish logging ([22f4c3f](https://github.com/fgardt/semantic-release-factorio/commit/22f4c3febea7b5c6e25572b3709cbe010feb41e7))
+
 # [1.3.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.12...v1.3.0) (2023-01-23)
 
 
