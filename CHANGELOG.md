@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.5...v1.2.6) (2023-01-23)
+
+
+### Bug Fixes
+
+* debug logging ([94faaa8](https://github.com/fgardt/semantic-release-factorio/commit/94faaa8896041904fbc380bc992091642b29263e))
+
 ## [1.2.5](https://github.com/fgardt/semantic-release-factorio/compare/v1.2.4...v1.2.5) (2023-01-22)
 
 
