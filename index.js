@@ -54,7 +54,7 @@ async function publish(config, context) {
     try {
         const info = await readInfoFile(config, context);
 
-        const archiveFile = [info.name, "_", info.version, ".zip"].join();
+        const archiveFile = [info.name, "_", info.version, ".zip"].join("");
         const archiveCommand = "git archive --format zip --prefix " + info.name +
                 "/ --worktree-attributes --output " + archiveFile + " HEAD";
 
