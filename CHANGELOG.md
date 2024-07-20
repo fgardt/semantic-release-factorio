@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.5.0...v1.5.1) (2024-07-20)
+
+
+### Bug Fixes
+
+* remove the periods between name and version in the archive file name ([#2](https://github.com/fgardt/semantic-release-factorio/issues/2)) ([8d2a9f4](https://github.com/fgardt/semantic-release-factorio/commit/8d2a9f4177f439fc9dcb0e8dd90cfb42abf283c7))
+
 # [1.5.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.4.2...v1.5.0) (2023-01-23)
 
 
