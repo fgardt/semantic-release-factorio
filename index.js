@@ -17,10 +17,12 @@ async function verifyConditions(config, context) {
     const { logger } = context;
     const errors = [];
 
+    const { skip_validation } = config;
+
     try {
         const info = await readInfoFile(config, context);
         
-        if (config.skip_validation !== true) {
+        if (skip_validation == undefined) {
             isInfoValid(config, context, info);
         }
 
