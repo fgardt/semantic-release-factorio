@@ -17,14 +17,9 @@ async function verifyConditions(config, context) {
     const { logger } = context;
     const errors = [];
 
-    const { skip_validation } = config;
-
     try {
         const info = await readInfoFile(config, context);
-        
-        if (skip_validation == undefined) {
-            isInfoValid(config, context, info);
-        }
+        isInfoValid(config, context, info);
 
         await verifyToken(config, context, info.name);
     } catch (error) {
@@ -46,7 +41,7 @@ async function prepare(config, context) {
     } catch (error) {
         errors.push(error);
     }
-    
+
     if (errors.length > 0) {
         throw new AggregateError(errors);
     }
@@ -61,7 +56,7 @@ async function publish(config, context) {
 
         const archiveFile = [info.name, "_", info.version, ".zip"].join("");
         const archiveCommand = "git archive --format zip --prefix " + info.name +
-                "/ --worktree-attributes --output " + archiveFile + " HEAD";
+            "/ --worktree-attributes --output " + archiveFile + " HEAD";
 
         logger.log("packaging mod for release");
         const { stdout0, stderr0 } = await exec(archiveCommand);
@@ -70,7 +65,7 @@ async function publish(config, context) {
     } catch (error) {
         errors.push(error);
     }
-    
+
     if (errors.length > 0) {
         throw new AggregateError(errors);
     }
