@@ -18,8 +18,10 @@ async function verifyConditions(config, context) {
     const errors = [];
 
     try {
-        const info = await readInfoFile(config, context);
-        isInfoValid(config, context, info);
+        if (config.skip_validation !== true) {
+            const info = await readInfoFile(config, context);
+            isInfoValid(config, context, info);
+        }
 
         await verifyToken(config, context, info.name);
     } catch (error) {
