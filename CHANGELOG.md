@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.3...v1.6.4) (2024-08-05)
+
+
+### Bug Fixes
+
+* moved & renamed `skipInfoValidation` ([b0348ab](https://github.com/fgardt/semantic-release-factorio/commit/b0348aba54ce5913bc8dab7a0ec6d35377d4d5c6))
+
 ## [1.6.3](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.2...v1.6.3) (2024-08-05)
 
 
