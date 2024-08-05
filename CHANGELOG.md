@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.0...v1.6.1) (2024-08-05)
+
+
+### Bug Fixes
+
+* allow mods with whitespace as dependency ([7d3cee3](https://github.com/fgardt/semantic-release-factorio/commit/7d3cee3e2145cb2af4659d59e724bb2bbe597bb0))
+
 # [1.6.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.5.1...v1.6.0) (2024-08-05)
 
 
