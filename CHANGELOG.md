@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.2...v1.6.3) (2024-08-05)
+
+
+### Bug Fixes
+
+* `skip_validation` config ([8bbacf8](https://github.com/fgardt/semantic-release-factorio/commit/8bbacf800b543a7249449b9fa64e7b2fbc69be82))
+
 ## [1.6.2](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.1...v1.6.2) (2024-08-05)
 
 
