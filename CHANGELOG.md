@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.1...v1.6.2) (2024-08-05)
+
+
+### Bug Fixes
+
+* undefined info bug introduced in 1.6.0 ([458b40a](https://github.com/fgardt/semantic-release-factorio/commit/458b40ab307026b02ab8264cf80f4f4ccb17ce9b))
+
 ## [1.6.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.0...v1.6.1) (2024-08-05)
 
 
