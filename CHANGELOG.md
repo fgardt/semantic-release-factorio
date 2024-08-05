@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.5.1...v1.6.0) (2024-08-05)
+
+
+### Features
+
+* allow info.json validation to be skipped ([1b22947](https://github.com/fgardt/semantic-release-factorio/commit/1b22947b230833aa95ffcd271246ef627433f5aa))
+
 ## [1.5.1](https://github.com/fgardt/semantic-release-factorio/compare/v1.5.0...v1.5.1) (2024-07-20)
 
 
