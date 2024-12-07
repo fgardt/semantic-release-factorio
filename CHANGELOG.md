@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.4...v1.6.5) (2024-12-07)
+
+
+### Bug Fixes
+
+* remove duplicate changelog entries ([d5a1222](https://github.com/fgardt/semantic-release-factorio/commit/d5a1222b187530b4ffa81b2bd73312c7b273bb7a))
+
 ## [1.6.4](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.3...v1.6.4) (2024-08-05)
 
 
