@@ -1,3 +1,10 @@
+## [1.6.6](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.5...v1.6.6) (2025-02-13)
+
+
+### Bug Fixes
+
+* remove extra leading whitespace from entries ([28f70fc](https://github.com/fgardt/semantic-release-factorio/commit/28f70fcc0a05fae1168b8582e81d9387a209243e))
+
 ## [1.6.5](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.4...v1.6.5) (2024-12-07)
 
 
