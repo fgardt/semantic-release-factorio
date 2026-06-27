@@ -1,3 +1,6 @@
+# direnv
+.direnv
+
 # Logs
 logs
 *.log

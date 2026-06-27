@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.6...v1.7.0) (2026-06-02)
+
+
+### Features
+
+* relax dependency whitespace constraints ([3e3c1d2](https://github.com/fgardt/semantic-release-factorio/commit/3e3c1d25b1e5530f3748228cad6a163691ca51da))
+
 ## [1.6.6](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.5...v1.6.6) (2025-02-13)
 
 
