@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.7.0...v1.8.0) (2026-06-28)
+
+
+### Features
+
+* support suggested dependency ([e5eb619](https://github.com/fgardt/semantic-release-factorio/commit/e5eb619a9fdf71911c757a1370b086321c4f5e22)), closes [#6](https://github.com/fgardt/semantic-release-factorio/issues/6)
+
 # [1.7.0](https://github.com/fgardt/semantic-release-factorio/compare/v1.6.6...v1.7.0) (2026-06-02)
 
 
